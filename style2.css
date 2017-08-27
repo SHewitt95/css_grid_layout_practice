@@ -8,7 +8,8 @@ body {
     grid-template-areas: "a b b c c c c d d d d d d e e f f"
                          "a b b c c c c d d d d d d e e f f"
                          "g h h i i i i j j k k k k l l m m"
-                         "g h h i i i i j j k k k k l l m m";
+                         "g h h i i i i j j k k k k l l m m"
+                         "n o o p p p p p p q q q q r r m m";
 
     max-width: 400px;
     max-height: 300px;
@@ -86,4 +87,29 @@ body {
 .box13 {
     grid-area: m;
     background-color: white;
+}
+
+.box14 {
+    grid-area: n;
+    background-color: white;
+}
+
+.box15 {
+    grid-area: o;
+    background-color: white;
+}
+
+.box16 {
+    grid-area: p;
+    background-color: blue;
+}
+
+.box17 {
+    grid-area: q;
+    background-color: white;
+}
+
+.box18 {
+    grid-area: r;
+    background-color: yellow;
 }
