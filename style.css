@@ -1,3 +1,17 @@
+body {
+    background-color: black;
+}
+
 .wrapper {
     display: grid;
+    grid-gap: 1em;
+}
+
+.wrapper > div {
+    padding: 1em;
+}
+
+.box {
+    background-color: #333;
+    border: 1px solid white;
 }
