@@ -4,7 +4,8 @@ body {
 
 .wrapper {
     display: grid;
-    grid-gap: 1em;
+    grid-gap: 0.5em;
+    grid-template-columns: 1fr 2fr 1fr;
 }
 
 .wrapper > div {
@@ -13,5 +14,28 @@ body {
 
 .box {
     background-color: #333;
-    border: 1px solid white;
+}
+
+.box1 {
+    background-color: white;
+}
+
+.box2 {
+    background-color: yellow;
+}
+
+.box3 {
+    background-color: red;
+}
+
+.box4 {
+    background-color: blue;
+}
+
+.box5 {
+    background-color: yellow;
+}
+
+.box6 {
+    background-color: white;
 }
