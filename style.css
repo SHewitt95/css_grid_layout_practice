@@ -5,7 +5,6 @@ body {
 .wrapper {
     display: grid;
     grid-gap: 0.55em;
-    grid-template-columns: 1fr 3fr 6fr 7fr 1fr 1fr;
     grid-auto-rows: minmax(75px, auto);
     grid-auto-columns: minmax(75px, auto);
 
@@ -14,7 +13,34 @@ body {
     margin: 0;
 }
 
-.wrapper > div {
+.wrapper1 {
+    grid-template-columns: 1fr 3fr 6fr 7fr 1fr 1fr;
+}
+
+.wrapper2 {
+    grid-template-columns: 1fr 3fr 6fr 2fr 4fr 2fr 2fr;
+}
+
+.wrapper3 {
+    grid-template-columns: 1fr 3fr 9fr 3fr 1fr 1fr;
+}
+
+.wrapper1 {
+    display: grid;
+    grid-gap: 0.55em;
+}
+
+.wrapper2 {
+    display: grid;
+    grid-gap: 0.55em;
+}
+
+.wrapper3 {
+    display: grid;
+    grid-gap: 0.55em;
+}
+
+.wrapper1 > div, .wrapper2 > div, .wrapper3 > div {
     padding: 1em;
 }
 
@@ -43,5 +69,57 @@ body {
 }
 
 .box6 {
+    background-color: white;
+}
+
+.box7 {
+    background-color: white;
+}
+
+.box8 {
+    background-color: white;
+}
+
+.box9 {
+    background-color: white;
+}
+
+.box10 {
+    background-color: white;
+}
+
+.box11 {
+    background-color: red;
+}
+
+.box12 {
+    background-color: blue;
+}
+
+.box13 {
+    background-color: white;
+}
+
+.box14 {
+    background-color: white;
+}
+
+.box15 {
+    background-color: white;
+}
+
+.box16 {
+    background-color: blue;
+}
+
+.box17 {
+    background-color: white;
+}
+
+.box18 {
+    background-color: yellow;
+}
+
+.box19 {
     background-color: white;
 }
