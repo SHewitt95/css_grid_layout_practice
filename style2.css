@@ -9,7 +9,8 @@ body {
                          "a b b c c c c d d d d d d e e f f"
                          "g h h i i i i j j k k k k l l m m"
                          "g h h i i i i j j k k k k l l m m"
-                         "n o o p p p p p p q q q q r r m m";
+                         "n o o p p p p p p q q q q r r m m"
+                         "n s s t t t t t t u u u u u u v v";
 
     max-width: 400px;
     max-height: 300px;
@@ -112,4 +113,24 @@ body {
 .box18 {
     grid-area: r;
     background-color: yellow;
+}
+
+.box19 {
+    grid-area: s;
+    background-color: red;
+}
+
+.box20 {
+    grid-area: t;
+    background-color: yellow;
+}
+
+.box21 {
+    grid-area: u;
+    background-color: white;
+}
+
+.box22 {
+    grid-area: v;
+    background-color: white;
 }
