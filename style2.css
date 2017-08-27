@@ -6,7 +6,13 @@ body {
     display: grid;
     grid-gap: 0.55em;
     grid-template-areas: "a b b c c c c d d d d d d e e f f"
-                         "a b b c c c c d d d d d d e e f f";
+                         "a b b c c c c d d d d d d e e f f"
+                         "g h h i i i i j j k k k k l l m m"
+                         "g h h i i i i j j k k k k l l m m";
+
+    max-width: 400px;
+    max-height: 300px;
+    margin: 0;
 }
 
 .wrapper > div {
@@ -44,5 +50,40 @@ body {
 
 .box6 {
     grid-area: f;
+    background-color: white;
+}
+
+.box7 {
+    grid-area: g;
+    background-color: white;
+}
+
+.box8 {
+    grid-area: h;
+    background-color: white;
+}
+
+.box9 {
+    grid-area: i;
+    background-color: white;
+}
+
+.box10 {
+    grid-area: j;
+    background-color: white;
+}
+
+.box11 {
+    grid-area: k;
+    background-color: red;
+}
+
+.box12 {
+    grid-area: l;
+    background-color: blue;
+}
+
+.box13 {
+    grid-area: m;
     background-color: white;
 }
