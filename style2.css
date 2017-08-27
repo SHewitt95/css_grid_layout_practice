@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 0.55em;
+    grid-template-areas: "a b b c c c c d d d d d d e e f f"
+                         "a b b c c c c d d d d d d e e f f";
+}
+
+.wrapper > div {
+    padding: 1em;
+}
+
+.box {
+    background-color: #333;
+}
+
+.box1 {
+    grid-area: a;
+    background-color: white;
+}
+
+.box2 {
+    grid-area: b;
+    background-color: yellow;
+}
+
+.box3 {
+    grid-area: c;
+    background-color: red;
+}
+
+.box4 {
+    grid-area: d;
+    background-color: blue;
+}
+
+.box5 {
+    grid-area: e;
+    background-color: yellow;
+}
+
+.box6 {
+    grid-area: f;
+    background-color: white;
+}
